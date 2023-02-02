@@ -1,0 +1,161 @@
+html {
+    background-image: url(https://preview.redd.it/ki35vcl5pwf81.png?width=640&crop=smart&auto=webp&s=7ad1e3387c5b1c4fae3ea38a52e0e1eae1e1e8dd);
+    background-size: 120%;
+    background-position: center;
+    background-color: #A7D0E9;
+    height: 490%;
+    width: 100%;
+    overflow: auto;
+
+}
+
+.topnav {
+    background-color: #222137;
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.topnav a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 25px 35px;
+    margin: 0;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Pangolin';
+}
+
+.topnav p {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 0px 27px;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'Pangolin';
+}
+
+h1 {
+    color: #355dca;
+    background-color: white;
+    font-family: 'Sigmar One', cursive;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    height: 200px;
+    width: 450px;
+    float: right;
+    padding: 90px 10px;
+    border-left: 100%;
+    margin-left: 100%;
+    top:20px;
+    right: 30px;
+    border-radius: 100%;
+    position: relative;
+}
+
+h2 {
+    color: #355dca;
+    font-family: 'Sigmar One', cursive;
+    font-size: 40px;
+    text-align: left;
+    border: 600px;
+    left: 100px;
+    width:500px;
+    position: relative;
+    margin: 0px;
+    bottom: -10px;
+}
+
+.paragraph {
+    color: #51a0fe;
+    background-color: white;
+    font-family: 'Pangolin';
+    font-size: 23px;
+    border-radius: 25px;
+    text-align: center;
+    position: relative;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 150px;
+    width: 430px;
+    height: auto;
+    line-height: 30px;
+    padding: 10px;
+    position: relative;
+}
+
+.link {
+    color: white;
+    background-color: black;
+    font-family: 'Pangolin';
+    font-size: 20px;
+    border-radius: 40px;
+    text-align: center;
+    position:relative;
+    height: auto;
+    left: 180px;
+    padding: 5px;
+    bottom: -10px;
+}
+
+.photo {
+    height:auto;
+    width: 30%;
+    padding: 0px 10px;
+    border-radius: 100%;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #222137;
+    font-family: 'Pangolin';
+    font-size: 20px;
+    text-align: center;
+    border-color: white;
+    left: 150px;
+    margin: 0px;
+    height: 670px;
+    width: 590px;
+    position: relative;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 90%;
+    height: 20%;
+    font-family: 'Pangolin';
+    font-size: 15px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 20px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    font-family: 'Pangolin';
+    font-size: 17px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+section {
+    height: 100%;
+    width: 100%;    
+}
+
+#about {
+    display: flex;
+}
